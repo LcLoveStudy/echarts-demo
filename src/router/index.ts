@@ -5,8 +5,17 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/dashboard',
       component: () => import('@/App.vue'),
-      children: []
+      children: [
+        {
+          path: '/dashboard',
+          meta: {
+            title: '导航页'
+          },
+          component: () => import('@/views/dashboard/index.vue')
+        }
+      ]
     }
   ]
 })
