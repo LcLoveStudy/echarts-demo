@@ -1,10 +1,5 @@
 <template>
-  <div class="w-full h-full">
-    <!-- 粒子特效背景 -->
-    <particle-background />
-  </div>
+  <div class="text-white text-2xl">nihao</div>
 </template>
 
-<script setup lang="ts">
-  import { ParticleBackground } from './components'
-</script>
+<script setup lang="ts"></script>

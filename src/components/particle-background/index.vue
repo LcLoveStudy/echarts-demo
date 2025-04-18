@@ -1,5 +1,5 @@
 <template>
-  <vue-particles class="w-full h-full" id="tsparticles" :options="config" />
+  <vue-particles class="w-full h-full absolute" id="tsparticles" :options="config" />
 </template>
 
 <script setup lang="ts">
