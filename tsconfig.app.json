@@ -3,7 +3,7 @@
   "include": ["src/vite-env.d.ts", "src/**/*", "src/**/*.vue"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
     // 取消以下的检查
     "types": [ "node"],
     "composite": true,
